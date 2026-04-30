@@ -8,11 +8,14 @@ class UsersController extends BaseController {
             "home" => null,
 
             "funcionarios" => __DIR__ . "/../view/pages/usersPages/gerencia/funcionarios.php",
+            "cadastroFuncionario" => __DIR__ . "/../view/pages/usersPages/gerencia/cadastroFuncionario.php",
+            "consultaFuncionario" => __DIR__ . "/../view/pages/usersPages/gerencia/consultaFuncionario.php",
+
             "pedidos" => __DIR__ . "/../view/pages/usersPages/gerencia/pedidos.php",
 
             "cardapio" => __DIR__ . "/../view/pages/usersPages/gerencia/cardapio.php",
             "cadastroCardapio" => __DIR__ . "/../view/pages/usersPages/gerencia/cadastroCardapio.php",
-            "consultarCardapio" => __DIR__ . "/../view/pages/usersPages/gerencia/consultarCardapio.php",
+            "consultaCardapio" => __DIR__ . "/../view/pages/usersPages/gerencia/consultaCardapio.php",
 
             "mesas" => __DIR__ . "/../view/pages/usersPages/gerencia/mesas.php"
         ];
